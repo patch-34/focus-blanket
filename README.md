@@ -5,7 +5,7 @@
 Focus Blanket is a REAPER Lua toggle that adds a single full-screen “focus blanket” track to reduce visual noise while you listen.
 
 <p align="center">
-  <img src="assets/ui.png" alt="Find and Recolor Glued Items UI" width="400">
+  <img src="assets/ui.png" alt="Focus Blanket UI" width="400">
 </p>
 
 
@@ -43,11 +43,6 @@ When you toggle it off, it removes the focus track and restores your previous se
 - Anyone who gets distracted by a busy timeline
 
 ---
-
-## License
-
-MIT
-
 
 ## Installation
 
