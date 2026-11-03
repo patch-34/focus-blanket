@@ -1,6 +1,8 @@
-# Patch34: Focus Blanket
+# Focus Blanket
 
-Auditory Focus Screen is a one-click REAPER Lua toggle that adds a single full-screen “focus blanket” track to reduce visual noise while you listen.
+**English** · [Русский](README_RU.md)
+
+Focus Blanket is a REAPER Lua toggle that adds a single full-screen “focus blanket” track to reduce visual noise while you listen.
 
 <p align="center">
   <img src="assets/ui.png" alt="Focus Blanket UI" width="400">
@@ -42,6 +44,19 @@ When you toggle it off, it removes the focus track and restores your previous se
 
 ---
 
-## License
+## Installation
 
-MIT
+### ReaPack
+
+Import the [Patch34 ReaPack catalog](https://raw.githubusercontent.com/patch-34/patch34-reapack/main/index.xml) via **Extensions → ReaPack → Import repositories…** and install **Focus Blanket** in **Browse packages**.
+
+### Manual installation
+
+Copy `Focus_Blanket.lua` to REAPER's `Scripts` directory and use **Actions → Show action list → New action → Load ReaScript**.
+
+
+## License and credits
+
+Distributed under the [MIT License](LICENSE).
+
+Author: [Aleksei Vorobev / Patch34](https://github.com/patch-34).

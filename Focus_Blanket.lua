@@ -1,8 +1,10 @@
--- Patch34
--- Focus Blanket
--- Fills the arrange view with a single grey track to reduce visual noise while listening.
---
--- https://github.com/patch-34
+-- @description Focus Blanket
+-- @version 1.0.0
+-- @author Aleksei Vorobev / Patch34
+-- @link
+--   GitHub repository https://github.com/patch-34/focus-blanket
+-- @about
+--   Toggles a tall neutral-colored track and item to cover the arrange view during listening.
 
 local r = reaper
 local proj = 0
@@ -194,7 +196,7 @@ local function main()
   r.PreventUIRefresh(-1)
   r.TrackList_AdjustWindows(false)
   r.UpdateArrange()
-  r.Undo_EndBlock("Patch34: Focus Blanket — Toggle", -1)
+  r.Undo_EndBlock("Focus Blanket — Toggle", -1)
 end
 
 main()
